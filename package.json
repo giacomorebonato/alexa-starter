@@ -2,8 +2,9 @@
   "name": "alexa_starter",
   "version": "1.0.0",
   "description": "Alexa Starter - AWS Lambda",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
+    "install:prod": "rm -rf node_modules && npm i --production",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

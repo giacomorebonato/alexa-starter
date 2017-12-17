@@ -16,3 +16,8 @@ npm run build # compiles TypeScript files
 ```
 
 The Alexa `APP_ID` is passed as an ENV variable.
+
+## Todos
+
+- Script for creating deployable `.zip` without dev dependencies
+- Create realistic and working example
