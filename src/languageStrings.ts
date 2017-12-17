@@ -1,6 +1,6 @@
 import recipes from './recipes'
 
-const languageStrings = {
+export default {
   en: {
     translation: {
       RECIPES: recipes.RECIPE_EN_US,
